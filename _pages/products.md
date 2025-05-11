@@ -9,7 +9,7 @@ title: "محصولات"
   <div class="product-grid">
     {% for product in site.data.products %}
     <div class="product-item">
-      <img src="/_pages/assets/images/{{ product.image }}" alt="{{ product.alt }}">
+      <img src="/_pages/assets/images/{{ product.image }}" alt="{{ logo.png }}">
       <p class="caption">محصول {{ forloop.index }}: {{ product.description }}</p>
     </div>
     {% endfor %}
