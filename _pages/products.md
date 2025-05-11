@@ -51,3 +51,19 @@ title: "محصولات"
     text-align: center; /* Center-align the caption under the image */
   }
 </style>
+
+<script>
+  // Function to convert English numbers to Persian
+  function toPersianNumber(num) {
+    const persianDigits = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+    return num.toString().replace(/\d/g, (digit) => persianDigits[digit]);
+  }
+
+  // Convert all captions with numbers
+  document.addEventListener("DOMContentLoaded", function () {
+    const captions = document.querySelectorAll(".caption");
+    captions.forEach((caption) => {
+      caption.innerHTML = caption.innerHTML.replace(/\d+/g, (number) => toPersianNumber(number));
+    });
+  });
+</script>
