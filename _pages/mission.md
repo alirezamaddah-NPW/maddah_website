@@ -6,10 +6,10 @@ permalink: /mission/
 
   <!-- Logo Section -->
   <div style="position: absolute; top: 20px; left: 20px;">
-    <img src="/assets/images/logo.png" alt="لوگوی تولیدی" style="height: 80px; width: auto;">
+    <img src="/_pages/assets/images/logo.png" alt="لوگوی تولیدی" style="height: 80px; width: auto;">
   </div>
   <div style="position: absolute; top: 20px; right: 20px;">
-    <img src="/assets/images/logo.png" alt="لوگوی تولیدی" style="height: 80px; width: auto;">
+    <img src="/_pages/assets/images/logo.png" alt="لوگوی تولیدی" style="height: 80px; width: auto;">
   </div>
 
   <!-- Header Section -->
